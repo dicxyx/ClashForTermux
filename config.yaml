@@ -1,7 +1,7 @@
 proxy-providers:
   VPN:
     type: file
-    path: "./📶providers📶.yaml"
+    path: "./vpn.yaml"
     health-check:
       enable: true
       url: https://cp.cloudflare.com/generate_204
